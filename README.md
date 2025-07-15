@@ -36,5 +36,3 @@ npm test -- --coverage
 ## Contact
 
 **Jeremy White**
-
-- Email: [j.white.25003@gmail.com](mailto:j.white.25003@gmail.com)
