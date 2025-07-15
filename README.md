@@ -32,7 +32,3 @@ For test coverage, run with:
 ```bash
 npm test -- --coverage
 ```
-
-## Contact
-
-**Jeremy White**
