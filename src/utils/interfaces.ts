@@ -11,16 +11,7 @@ export interface IGrid {
 
 export interface IRobot extends IGridEntity {
   turn(direction: TurnDirection): boolean;
-
-  /**
-   * Moves the robot forward by one unit in its current facing direction.
-   */
   move(): boolean;
-
-  /**
-   * Retrieves the current position of the robot.
-   * @returns The current position of the robot as a Position object.
-   */
   place(coordinates: Coordinates, direction: Facing, grid: IGrid): boolean;
   report(): string;
 }
